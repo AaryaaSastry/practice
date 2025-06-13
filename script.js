@@ -3,7 +3,7 @@ const toggle = document.getElementById('themeToggle');
 // Load saved preference
 if (localStorage.getItem('theme') === 'dark') {
   document.body.classList.add('dark-mode');
-  toggle.checked = false;
+  toggle.checked = true;
 }
 
 toggle.addEventListener('change', () => {
