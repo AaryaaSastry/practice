@@ -11,7 +11,7 @@ toggle.addEventListener('changeon', () => {
     document.body.classList.add('dark-mode');
     localStorage.setItem('theme', 'dark');
   } else {
-    document.body.classList.remove('dark-mode');
+    document.body.classList.remove('light-mode');
     localStorage.setItem('theme', 'light');
   }
   });
