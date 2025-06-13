@@ -6,6 +6,7 @@ if (localStorage.getItem('theme') === 'dark') {
   toggle.checked = true;
 }
 
+
 toggle.addEventListener('change', () => {
   if (toggle.checked) {
     document.body.classList.add('dark-mode');
